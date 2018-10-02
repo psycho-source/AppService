@@ -3,3 +3,77 @@
   left: 25%;
   top: 25%;
 }
+
+.parallaxHead {
+    background-image: url("../../assets/images/banner.jpg");
+    height: 65vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mdl-card {
+  border-radius: 12px;
+}
+
+.main-banner-card.mdl-card {
+  width: 32vw;
+  height: 50vh;
+  margin: auto;
+}
+.main-banner-card > .mdl-card__title {
+  background: url('../../assets/images/Android_Robot.png') no-repeat center ;
+  background-size: contain;
+}
+
+.banner-heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: .02em;
+  font-family:"Roboto";
+  margin:0px 0 0px;
+}
+
+.banner-section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.arrow {
+  text-align: center;
+  margin: 4% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.down-arrow {
+  color: #F44336;
+  text-decoration: none;
+}
+
+.features {
+  width: 100vw;
+  height: 81%;
+  background-color: #F44336;
+}
+
+.mdl-mini-footer {
+  padding-top: 12px;
+}
