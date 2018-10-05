@@ -1,3 +1,18 @@
+::-webkit-scrollbar {
+  width: 6px;
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .material-icons {
   position: absolute;
   left: 25%;
@@ -14,7 +29,7 @@
 }
 
 .mdl-card {
-  border-radius: 12px;
+  border-radius: 8px;
 }
 
 .main-banner-card.mdl-card {
@@ -30,10 +45,14 @@
 .banner-heading {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1;
   letter-spacing: .02em;
   font-family:"Roboto";
   margin:0px 0 0px;
+  text-align: center;
+}
+
+.banner-heading-div {
+  width: auto;
 }
 
 .banner-section {
@@ -45,6 +64,7 @@
   text-align: center;
   margin: 4% 0;
 }
+
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
@@ -70,10 +90,15 @@
 
 .features {
   width: 100vw;
-  height: 81%;
-  background-color: #F44336;
+  height: 100vh;
+  padding-top: 64px;
+  padding bottom: 32px;
 }
 
 .mdl-mini-footer {
   padding-top: 12px;
+}
+
+.mdl-menu__outline{
+  border-radius: 8px;
 }
